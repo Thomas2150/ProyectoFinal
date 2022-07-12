@@ -1,0 +1,259 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* HEADER */
+header li a:hover {
+    transition: all 0.5s;
+     background-color: chocolate;
+}
+
+.logo {
+    height: 80px;
+}
+
+.section-header {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 7px 16px 4px rgba(255,154,0,1);
+    -webkit-box-shadow: 0px 7px 16px 4px rgba(255,154,0,1);
+    -moz-box-shadow: 0px 7px 16px 4px rgba(255,154,0,1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.img-header {
+    margin-top: 110px;
+    background-image: url(/Multimedia/Imagenes/img-header.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.img-header h1 {
+    font-size: 40;
+    margin-bottom: 20px;
+}
+
+.contenedor-textos {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+                    
+}
+
+.boton {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.img-header p {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+
+
+ /* MAIN */
+/* PANTALLA DIVIDIDA */
+
+.izquierda {
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+    border-top: 2px solid chocolate;
+}
+
+.derecha {
+    background-image: url(/Multimedia/Imagenes/redes-sociales-para-empresas-large-JKGhYjKMCp.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.derecha-2 {
+    background-image: url(/Multimedia/Imagenes/servicio-profesional.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.creative {
+    color: white;
+}
+
+.creative2 {
+    color: chocolate;
+}
+
+.h2-div {
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.p-h2 {
+    font-size: 19px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container-icons {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    color: white;
+}
+
+/* TITULO */
+.h2-tittle {
+    width: 100%;   
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* BENEFICIOS */
+.h2-beneficios {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.copy-text {
+    display: flex;
+    text-align: center;
+    color: rgb(184, 184, 184);
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.beneficios {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.beneficio {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(/Multimedia/Imagenes/beneficios-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 1px solid chocolate;
+}
+
+.beneficios-grid-container {
+    display: grid;
+    grid-template-areas:
+    "beneficio1"
+    "beneficio2"
+    "beneficio3"
+    ;
+}
+
+.beneficio1 {
+    grid-area: beneficio1;
+}
+
+.beneficio2 {
+    grid-area: beneficio2;
+}
+
+.beneficio3 {
+    grid-area: beneficio3;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: chocolate;
+    padding-top: 50px;
+}
+
+.titulo-seccion {
+    text-align: center;
+    background-color: none;
+}
+
+.copy {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.titulo-seccion, .copy {
+    color: rgb(255, 255, 255);
+}
+
+footer i {
+    color: white;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+footer i:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* gestion de redes */
+.titulo-contratacion {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
